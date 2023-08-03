@@ -1,0 +1,11 @@
+.display-1{
+    color: red !important;
+  }
+
+.container-xl{
+    padding-left: 30px;
+    border: 2px red dotted !important;
+}
+.para1{
+    color: blueviolet !important;
+}
