@@ -1,0 +1,32 @@
+<div class="calculator">
+  <h3>Simple Calculator</h3>
+  <div class="display">{{ displayValue }}</div>
+  <div class="buttons">
+    <div class="row">
+      <button (click)="appendToDisplay('7')">7</button>
+      <button (click)="appendToDisplay('8')">8</button>
+      <button (click)="appendToDisplay('9')">9</button>
+      <button (click)="operate('+')">+</button>
+    </div>
+    <div class="row">
+      <button (click)="appendToDisplay('4')">4</button>
+      <button (click)="appendToDisplay('5')">5</button>
+      <button (click)="appendToDisplay('6')">6</button>
+      <button (click)="operate('-')">-</button>
+    </div>
+    <div class="row">
+      <button (click)="appendToDisplay('1')">1</button>
+      <button (click)="appendToDisplay('2')">2</button>
+      <button (click)="appendToDisplay('3')">3</button>
+      <button (click)="operate('*')">x</button>
+    </div>
+    <div class="row">
+      <button (click)="reset()">C</button>
+      <button (click)="appendToDisplay('0')">0</button>
+      <button (click)="operate('%')">%</button>
+      <button (click)="calculate()">=</button>
+      <button (click)="operate('/')">÷</button>
+    </div>
+  </div>
+</div>
+
